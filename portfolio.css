@@ -1,270 +1,201 @@
-@font-face {
-    font-family: "caviarDream";
-    src: url(./tout/caviar_dreams/CaviarDreams.ttf);
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./portfolio.css">
+    <title>Portfolio - Swann Gillé</title>
+</head>
+<body>
 
-@font-face {
-    font-family: "caviarDreamItalic";
-    src: url(./tout/caviar_dreams/CaviarDreams_Italic.ttf);
-}
+    <main>
 
-* {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    font-family: 'caviarDream';
-    scroll-behavior: smooth;
-}
+    <!-- - - - - - PAGE 1 : ACCUEIL - - - - - -->
 
-main {margin: 0; padding: 0;}
-body {margin: 0; padding: 0;}
-h1 {font-size: 50px; font-weight: 300;}
-h2 {font-size: 30px; font-weight: 300;}
-h3 {font-size: 20px; font-weight: 500;}
-h4 {font-size: 17px; font-weight: 350;}
+        <div class="accueil" id="scroll0">
+            <div class="accueilTexte">
+                <h1><strong>SWANN GILLÉ</strong></h1><br>
+                <h1>ÉTUDIANT EN INFORMATIQUE</h1><br><br>
+                <h3>" Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime numquam incidunt, doloribus natus facilis dolore laborum! Consequatur facere eius quis explicabo, quae cumque perferendis dolorum cum nobis vel, vitae perspiciatis. "</h3>    
+            </div>
+            <a id="flechea" href="#scroll1">
+                <img class="fleche" src="./tout/logo/dbfleche.svg" alt="fleche">
+            </a>
+        </div>
 
-.svg {
-    height: 75px;
-}
+    <!-- - - - - - PAGE 2 : A PROPOS DE MOI - - - - - -->
+        
+        <div class="aProposDeMoi" id="scroll1">
+            <h2>À propos de moi</h2><br>
+            <!-- <h4>Je suis Swann Gillé, j'ai 18 ans et je suis actuellement étudiant à l'iut de Nantes en première année de BUT informatique.</h4><br> -->
+            <!-- <h4>AJOUTER ICI MOTIVATION BUT :</h4> -->
+            <!-- <h4>dire pourquoi j'aime l'info et donc pourquoi j'ai voulu rejoindre le BUT</h4><br> -->
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam est dolorem iure, consequatur voluptatum voluptatem fuga nemo. Ea eaque consectetur magnam quasi quae? Eligendi facilis ab rerum eos similique asperiores.</h4>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum mollitia corrupti excepturi explicabo, recusandae quam, quaerat soluta perferendis quasi magni, dignissimos quia. Eum autem non temporibus vel delectus quaerat placeat!</h4>
+            <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt fugiat optio deleniti quas? Vero odio impedit voluptates repellendus laudantium fugit placeat et porro, ut natus possimus assumenda eaque magnam quaerat.</h4><br>
+            <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias minus aut, quas consequatur repellendus expedita, debitis nobis fuga magni, rem sunt consectetur officia maiores cum accusantium perspiciatis deleniti sed dolore.</h4><br><br>
+            <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium dolorum provident voluptas deserunt nam qui voluptatem pariatur reiciendis eveniet. Omnis natus architecto quo a debitis ut temporibus. Incidunt, earum explicabo!</h4>
+            <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus illum voluptatum deleniti eos, facilis id fugit adipisci ipsum ad ab voluptates iusto magni voluptas deserunt, rem architecto dolores soluta officiis.</h4><br>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis consequuntur culpa possimus sint, est non mollitia laudantium qui dignissimos natus! Ipsum natus dicta eaque aut! Illum voluptate dolore delectus nesciunt.</h4>
+            <a id="flecheapdm" href="#scroll2">
+                <img class="fleche" src="./tout/logo/dbfleche.svg" alt="fleche">
+            </a>
+        </div>
 
-.fleche {
-    height: 50px;
-    transition: 0.3s;
-}
 
-.fleche:hover {
-    transition: 0.5s;
-    transform: translateY(10px);
-}
+    <!-- - - - - - PAGE 3 : PARCOURS SCOLAIRE - - - - - -->
 
-/* ACCUEIL */
+        <div class="parcoursScolaire" id="scroll2">
+            <h1>Mon parcours scolaire</h2><br><br>
 
-.accueil {
-    height: 721px;
-    display: flex;
-    justify-content: center;
-    background-image: url(./tout/images/fondAccueil.jpg);
-    opacity: 0.9;
-    background-size: cover;
-    background-attachment: fixed;
-    color: #FFFFFF;
-}
+            <ul>
+                <li class="etapeParcours">
+                    <h3>PRÉAPARATION D'UN BUT INFORMATIQUE</h3><br>
+                    <h4>Depuis Septembre 2022, je prépare un BUT informatique à l'Iut de Nantes.</h4>
+                </li>
+                <li class="etapeParcours">
+                    <h3>OBTENTION D'UN BACCALAUREAT GÉNÉRAL</h3><br>
+                    <h4>En juillet 2022, à l'issue de mes 3 ans de cours au lycée Beaumont de Redon, j'ai obtenu mon Baccalauréat Général mention bien, spécialités Mathématiques et Sciences de l'Ingénieur.</h4>
+                    <h4>Durant ces 3 années, j'ai aussi fait partie de l'option Cinéma-Audiovisuel, grâce à laquelle j'ai appris à utiliser dfférents outils, comme des logiciels de montages.</h4>
+                </li>
+                <li class="etapeParcours">
+                    <h3>OBTENTION DU BREVET DES COLLÈGES</h3><br>
+                    <h4>J'ai obtenu mon brevet des collèges mention Très Bien au collège Beaumont de Redon en juin 2018.</h4>
+                    <h4>Pendant tout mon collège, j'ai suivi l'option CHAM (Classe à Horaires Aménagés Musique), grâce à laquelle j'ai pu commencer un deuxième intrument de musique, et ainsi, diversifier ma pratique musicale.</h4>
+                </li>
+            </ul>
 
-.accueil::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: #000000;
-    opacity: 0.5;
-    z-index: -1;
-}
+            <a href="#scroll3">
+                <img class="fleche" src="./tout/logo/dbfleche.svg" alt="fleche">
+            </a>
+        </div>
 
-.accueilTexte {
-    max-width: 800px;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    justify-content: center;
-}
+        <!-- - - - - - PAGE 4 : MES COMPETENCES - - - - - -->
 
-#flechea {
-    position: absolute;
-    transform: translateY(550px);
-}
+        <div class="mesCompetences" id="scroll3">
+            <h2>Mes compétences</h2><br>
 
-/* A PROPOS DE MOI */
+            <div class="cadreCompetences">
+                <div class="blocCompetence">
+                    <img class="svg" src="./tout/logo/langues.svg" alt="langues"><br>
+                    <h3>Langues</h3>
+                    <h4>Français / Anglais / Espagnol</h4>
+                </div>
 
-.aProposDeMoi {
-    height: 721px;
-    padding: 50px 80px;
-    background: #FFFAFA;
-}
+                <div class="blocCompetence">
+                    <img class="svg" src="./tout/logo/code.svg" aria-colspan="développement"><br>
+                    <h3>Développement</h3>
+                    <h4>Python / Golang / HTML/CSS</h4>
+                </div>
 
-#flecheapdm {
-    position: absolute;
-    /* transform: translateY(00px);  */
-    transform: translateX(658px) translateY(400px);
-}
+                <div class="blocCompetence">
+                    <img class="svg" src="./tout/logo/systeme.svg" alt="systeme"><br>
+                    <h3>Systèmes d'exploitations</h3>
+                    <h4>Windows / Linux</h4>
+                </div>
 
-/* PARCOURS SCOLAIRE */
+                <div class="blocCompetence">
+                    <img class="svg" src="./tout/logo/logiciel.svg" alt="logiciel"><br>
+                    <h3>Logiciels</h3>
+                    <h4>Adobe (Photoshop / Première Pro)</h4>
+                </div>
 
-.parcoursScolaire {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+                <div class="blocCompetence">
+                    <img class="svg" src="./tout/logo/database.svg" alt="base de données"><br>
+                    <h3>Base de données</h3>
+                    <h4>en cours d'apprentissage</h4>
+                </div>
 
-    background-image:url(./tout/images/fondParcours.jpg);
-    opacity: 0.8;
-    background-size: cover;
-    background-attachment: fixed;
+                <!-- <div class="blocCompetence">
+                    <img class="svg" src="./tout/logo/.svg" alt=""><br>
+                    <h3></h3>
+                    <h4></h4>
+                </div> -->
+
+                <a id="flechemc" href="#scroll4">
+                    <img class="fleche" src="./tout/logo/dbfleche.svg" alt="fleche">
+                </a>
+            </div>
+        </div>
+
+        <!-- - - - - - PAGE 5 : PROJET PERSONNEL - - - - - -->
+
+        <div class="projetPersonnel" id="scroll4">
+            <h1 class="titre">Mon projet personnel</h1>
+            <div class="projetPerso">
+                <h2>La musique</h2>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero in, blanditiis aliquam labore deserunt voluptas repellendus quibusdam quidem quis nisi magni quia voluptate neque sit ducimus asperiores consequuntur architecto nostrum.</h4>
+            </div>
+
+            <div class="projetPerso">
+                <h2>Le sport</h2>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aliquam voluptatum corporis beatae? Molestiae a tempore ipsam ab commodi corporis totam, earum nobis odit, doloribus consequatur! Velit dignissimos sint repudiandae!</h4>
+            </div>
+
+            <div class="projetPerso">
+                <h2>Voyager</h2>
+                <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat delectus nisi facere soluta rem laboriosam suscipit tenetur odio quis aperiam voluptatem ex, quod recusandae fuga qui officiis sit iste quam.</h4>
+            </div>
+
+            <a id="flechepper" href="#scroll5">
+                <img class="fleche" src="./tout/logo/dbfleche.svg" alt="fleche">
+            </a>
+
+        </div>
+
+        <!-- - - - - - PAGE 6 : PROJET PROFESSIONNEL - - - - - -->
+
+        <div class="projetProfessionnel" id="scroll5">
+            <h1 class="titre">Mon projet professionnel</h1>
+        
+            <div class="projetPro">
+                <h2>L'informatique</h2>
+                <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit voluptatem vitae obcaecati cupiditate distinctio dolorem tempore laborum voluptates ratione? Aut nihil, qui commodi nesciunt quisquam fuga et. Provident, tempore molestiae!</h4>
+            </div>
+
+            <div class="projetPro">
+                <h2>Le développement web</h2>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sapiente hic impedit asperiores explicabo repellendus labore excepturi doloremque fuga aliquam. Praesentium incidunt velit autem, deleniti nobis laborum sapiente molestias perferendis!</h4>
+            </div>
+
+            <div class="projetPro">
+                <h2>à venir</h2>
+                <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet nemo vitae nesciunt, alias quo sed reiciendis facere eaque quaerat laborum aspernatur nihil, et obcaecati dolor quas porro accusamus hic magnam?
+                </h4>
+            </div>
+
+            <a id="flecheppro" href="#scroll6">
+                <img class="fleche" src="./tout/logo/dbfleche.svg" alt="fleche">
+            </a>            
+        </div>
+
+        <!-- - - - - - PAGE 7 : CONTACTS - - - - - -->
+
+        <div class="contacts" id="scroll6">          
+            <h2>Contacts</h2>
+            <div class="cadreContacts">
+                <div class="blocContacts">
+                    <img class="svg" src="./tout/logo/mail.svg" alt="mail"><br>
+                    <h3>Mail</h3>
+                    <h4>swanngille@gmail.com</h4>
+                </div>
+
+                <div class="blocContacts">
+                    <img class="svg" src="./tout/logo/mailetu1.svg" alt="mail"><br>
+                    <h3>Mail universitaire</h3>
+                    <h4>swann.gille@etu.univ-nantes.fr</h4>
+                </div>
     
-    position: relative;
-    padding: 50px 0px;
-}
+                <div class="blocContacts">
+                    <img class="svg" src="./tout/logo/telephone.svg" alt="téléphone"><br>
+                    <h3>Téléphone</h3>
+                    <h4>06.18.81.80.97</h4>
+                </div>
+            </div>
 
-.parcoursScolaire::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: #1d192c;
-    opacity: 0.8;
-    z-index: -1;
-}
-
-.parcoursScolaire > h1 {
-    color: white;
-}
-
-.etapeParcours {
-    max-width: 600px;
-    /* background: rgba(255, 255, 255, 0.8); */
-    background: rgba(255, 255, 255, 0.3);
-    color: #FFFFFF;
-    padding: 15px 20px 15px 20px;
-    border-radius: 10px;
-    margin: 50px 0px;
-}
-
-/* MES COMPETENCES */
-
-.mesCompetences {
-    height: 621px;
-    padding: 50px 80px;
-}
-
-.cadreCompetences {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
-}
-
-.blocCompetence {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 300px;
-    margin: 50px;
-}
-
-#flechemc {
-    position: absolute;
-    transform: translateY(500px);
-}
-
-/* PROJET PERSONNEL */
-
-.projetPersonnel {
-    background-image: url(./tout/images/fondProjetPerso.jpg);
-    opacity: 0.9999999;
-    background-attachment: fixed;
-    background-size: cover;
-    color: #ffffff;
-    padding: 50px 0px;
-    position: relative;
-    height: 721px;
-}
-
-.projetPersonnel::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: #1d192c;
-    opacity: 0.8;
-    z-index: -1;
-}
-
-.Titre {
-    display: flex;
-    justify-content: center;
-}
-
-.projetPerso {
-    margin: 50px 80px;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-}
-
-#flechepper {
-    position: absolute;
-    transform: translateX(738px);
-}
-
-/* PROJET PROFESSIONNEL */
-
-.projetProfessionnel {
-    background-image: url(./tout/images/fondProjetPro.jpg);
-    opacity: 0.8;
-    background-attachment: fixed;
-    background-size: cover;
-    color: #ffffff;
-    padding: 50px 0px;
-    position: relative;
-    /* height: 721px; */
-}
-
-.projetProfessionnel::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: #1d192c;
-    opacity: 0.8;
-    z-index: -1;
-}
-
-.titre {
-    display: flex;
-    justify-content: center;
-}
-
-.projetPro {
-    margin: 50px 80px;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-}
-
-#flecheppro {
-    position: absolute;
-    transform: translateX(738px);
-}
-
-/* CONTACTS */
-
-.contacts {
-    padding: 50px 80px;
-}
-
-.cadreContacts {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
-}
-
-.blocContacts {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 300px;
-    margin: 50px;
-}
-
-#flechec {
-    position: absolute;
-    transform: translateX(1270px) translateY(-50px) rotate(180deg);
-}
+            <a id="flechec" href="#scroll0">
+                <img class="fleche" src="./tout/logo/dbfleche.svg" alt="fleche">
+            </a>
+        </div>
+    </main>
+</body>
+</html>
