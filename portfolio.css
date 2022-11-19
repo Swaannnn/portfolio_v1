@@ -1,0 +1,270 @@
+@font-face {
+    font-family: "caviarDream";
+    src: url(./tout/caviar_dreams/CaviarDreams.ttf);
+}
+
+@font-face {
+    font-family: "caviarDreamItalic";
+    src: url(./tout/caviar_dreams/CaviarDreams_Italic.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'caviarDream';
+    scroll-behavior: smooth;
+}
+
+main {margin: 0; padding: 0;}
+body {margin: 0; padding: 0;}
+h1 {font-size: 50px; font-weight: 300;}
+h2 {font-size: 30px; font-weight: 300;}
+h3 {font-size: 20px; font-weight: 500;}
+h4 {font-size: 17px; font-weight: 350;}
+
+.svg {
+    height: 75px;
+}
+
+.fleche {
+    height: 50px;
+    transition: 0.3s;
+}
+
+.fleche:hover {
+    transition: 0.5s;
+    transform: translateY(10px);
+}
+
+/* ACCUEIL */
+
+.accueil {
+    height: 721px;
+    display: flex;
+    justify-content: center;
+    background-image: url(./tout/images/fondAccueil.jpg);
+    opacity: 0.9;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #FFFFFF;
+}
+
+.accueil::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #000000;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.accueilTexte {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+#flechea {
+    position: absolute;
+    transform: translateY(550px);
+}
+
+/* A PROPOS DE MOI */
+
+.aProposDeMoi {
+    height: 721px;
+    padding: 50px 80px;
+    background: #FFFAFA;
+}
+
+#flecheapdm {
+    position: absolute;
+    /* transform: translateY(00px);  */
+    transform: translateX(658px) translateY(400px);
+}
+
+/* PARCOURS SCOLAIRE */
+
+.parcoursScolaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image:url(./tout/images/fondParcours.jpg);
+    opacity: 0.8;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    position: relative;
+    padding: 50px 0px;
+}
+
+.parcoursScolaire::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #1d192c;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.parcoursScolaire > h1 {
+    color: white;
+}
+
+.etapeParcours {
+    max-width: 600px;
+    /* background: rgba(255, 255, 255, 0.8); */
+    background: rgba(255, 255, 255, 0.3);
+    color: #FFFFFF;
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
+    margin: 50px 0px;
+}
+
+/* MES COMPETENCES */
+
+.mesCompetences {
+    height: 621px;
+    padding: 50px 80px;
+}
+
+.cadreCompetences {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.blocCompetence {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 50px;
+}
+
+#flechemc {
+    position: absolute;
+    transform: translateY(500px);
+}
+
+/* PROJET PERSONNEL */
+
+.projetPersonnel {
+    background-image: url(./tout/images/fondProjetPerso.jpg);
+    opacity: 0.9999999;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffffff;
+    padding: 50px 0px;
+    position: relative;
+    height: 721px;
+}
+
+.projetPersonnel::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #1d192c;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.Titre {
+    display: flex;
+    justify-content: center;
+}
+
+.projetPerso {
+    margin: 50px 80px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#flechepper {
+    position: absolute;
+    transform: translateX(738px);
+}
+
+/* PROJET PROFESSIONNEL */
+
+.projetProfessionnel {
+    background-image: url(./tout/images/fondProjetPro.jpg);
+    opacity: 0.8;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffffff;
+    padding: 50px 0px;
+    position: relative;
+    /* height: 721px; */
+}
+
+.projetProfessionnel::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #1d192c;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.titre {
+    display: flex;
+    justify-content: center;
+}
+
+.projetPro {
+    margin: 50px 80px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#flecheppro {
+    position: absolute;
+    transform: translateX(738px);
+}
+
+/* CONTACTS */
+
+.contacts {
+    padding: 50px 80px;
+}
+
+.cadreContacts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.blocContacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 50px;
+}
+
+#flechec {
+    position: absolute;
+    transform: translateX(1270px) translateY(-50px) rotate(180deg);
+}
