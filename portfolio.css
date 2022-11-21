@@ -89,7 +89,7 @@ h4 {font-size: 17px; font-weight: 350;}
     padding: 50px 80px;
 }
 
-#flecheapdm {
+#flecheapdm { /* à changer plus tard */
     position: absolute;
     transform: translateY(80vh);
 }
@@ -149,10 +149,11 @@ h4 {font-size: 17px; font-weight: 350;}
 
 .mesCo {
     padding-bottom: 5vh;
+    padding-left: 80px;
 }
 
 .mesCompetencesTexte {
-    padding: 50px 80px;
+    padding: 50px 0px;
 }
 
 .cadreCompetences {
@@ -170,8 +171,15 @@ h4 {font-size: 17px; font-weight: 350;}
 }
 
 #flechemc {
-    position: absolute;
-    transform: translateY(85vh);
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1216px){
+    #flechemc {
+        position: absolute;
+        transform: translateX(50vw) translateY(0%);
+    }
 }
 
 /* PROJET PERSONNEL */
@@ -258,8 +266,12 @@ h4 {font-size: 17px; font-weight: 350;}
 
 /* CONTACTS */
 
+.titreContacts {
+    padding-left: 80px;
+}
+
 .contacts {
-    padding: 50px 80px;
+    padding: 50px 00px;
 }
 
 .cadreContacts {
