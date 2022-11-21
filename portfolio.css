@@ -38,6 +38,33 @@ h4 {font-size: 17px; font-weight: 350;}
     transform: translateY(10px);
 }
 
+/* loader */
+
+.loader {
+    position: fixed;
+    z-index: 5;
+    background: url(./tout/images/chargement1.gif) 50% 50% no-repeat;
+
+    background-color: black;
+    color: #FFFAFA;
+
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* opacity: 0; */
+}
+
+.fondu-out {
+    display: none;
+    transition: opacity 0.4s ease-out;
+}
+
 /* ACCUEIL */
 
 .accueil {
@@ -175,12 +202,16 @@ h4 {font-size: 17px; font-weight: 350;}
     justify-content: center;
 }
 
+/* #flechemcc {
+    display: none;
+}
+
 @media screen and (min-width: 1216px){
-    #flechemc {
+    #flechemcc {
         position: absolute;
         transform: translateX(50vw) translateY(0%);
     }
-}
+} TROUVER UN MOYEN POUR QUE CE SOIT "MIEUX" */ 
 
 /* PROJET PERSONNEL */
 
