@@ -38,6 +38,31 @@ h4 {font-size: 17px; font-weight: 350;}
     transform: translateY(10px);
 }
 
+/* loader */
+
+/* .loader {
+    position: fixed;
+    z-index: 5;
+    background: url(./tout/images/chargement1.gif) 50% 50% no-repeat;
+
+    background-color: black;
+    color: #FFFAFA;
+
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondu-out {
+    display: none;
+    transition: opacity 0.4s ease-out;
+} */
+
 /* ACCUEIL */
 
 .accueil {
@@ -139,6 +164,13 @@ h4 {font-size: 17px; font-weight: 350;}
     margin: 50px 0px;
 }
 
+@media screen and (height > 100vh) {
+    #flecheps {
+        position: absolute;
+        transform: translateY(82vh);
+    }   
+}
+
 /* MES COMPETENCES */
 
 .mesCompetences {
@@ -175,16 +207,20 @@ h4 {font-size: 17px; font-weight: 350;}
     justify-content: center;
 }
 
-/* #flechemcc {
+#flechemcc {
     display: none;
 }
 
-@media screen and (min-width: 1216px){
-    #flechemcc {
-        position: absolute;
-        transform: translateX(50vw) translateY(0%);
+@media screen and (height > 100vh) {
+    #flechemc {
+        display: none;
     }
-} TROUVER UN MOYEN POUR QUE CE SOIT "MIEUX" */ 
+    #flechemcc {
+        display: block;
+        position: absolute;
+        transform: translateY(88vh);
+    }
+}
 
 /* PROJET PERSONNEL */
 
@@ -227,6 +263,13 @@ h4 {font-size: 17px; font-weight: 350;}
     border-radius: 10px;
 }
 
+@media screen and (height > 100vh) {
+    #flecheperso {
+        position: absolute;
+        transform: translateY(82vh);
+    }   
+}
+
 /* PROJET PROFESSIONNEL */
 
 .projetProfessionnel {
@@ -266,6 +309,13 @@ h4 {font-size: 17px; font-weight: 350;}
     padding: 20px;
     background: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
+}
+
+@media screen and (height > 100vh) {
+    #flechepro {
+        position: absolute;
+        transform: translateY(82vh);
+    }   
 }
 
 /* CONTACTS */
