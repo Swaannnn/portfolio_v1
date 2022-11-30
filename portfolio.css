@@ -38,35 +38,10 @@ h4 {font-size: 17px; font-weight: 350;}
     transform: translateY(10px);
 }
 
-/* loader */
-
-/* .loader {
-    position: fixed;
-    z-index: 5;
-    background: url(./tout/images/chargement1.gif) 50% 50% no-repeat;
-
-    background-color: black;
-    color: #FFFAFA;
-
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.fondu-out {
-    display: none;
-    transition: opacity 0.4s ease-out;
-} */
-
-/* ACCUEIL */
+/* - - - - - - - - - - ACCUEIL - - - - - - - - - - */
 
 .accueil {
-    min-height: 100vh; /* unité qui fait 1/100e dela largeur de l'écran-> 100vh = largeur de l'écran*/
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     background-image: url(./tout/images/fondAccueil.jpg);
@@ -76,7 +51,7 @@ h4 {font-size: 17px; font-weight: 350;}
     color: #FFFFFF;
 }
 
-.accueil::before { /* prend la largeur de l'écran */
+.accueil::before {
     content: "";
     position: absolute;
     left: 0;
@@ -92,7 +67,6 @@ h4 {font-size: 17px; font-weight: 350;}
     max-width: 800px;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
 }
 
@@ -101,7 +75,7 @@ h4 {font-size: 17px; font-weight: 350;}
     transform: translateY(80vh);
 }
 
-/* A PROPOS DE MOI */
+/* - - - - - - - - - - A PROPOS DE MOI - - - - - - - - - - */
 
 .aProposDeMoi {
     min-height: 100vh;
@@ -204,33 +178,12 @@ h4 {font-size: 17px; font-weight: 350;}
     height: auto;
 }
 
-#ahouaiiss {
-    position: absolute;
-    transform: translateX(20%) translateY(150%) rotate(-8deg);
-    transition: 0.3s;
-
-    margin: 0;
-    padding: 0;
-    border: 15px solid #fff;
-    border-bottom: 40px solid #fff;
-    /* border-top: 15px solid #fff; */
-    box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
-    border-radius: 5px;
-}
-
-#ahouaiiss:hover {
-    z-index: 1;
-    transform: translateX(20%) translateY(150%) rotate(-5deg);
-    transition: 0.2s;
-}
-
-
 #flecheapdm { /* à changer plus tard */
     position: absolute;
     transform: translateY(85vh);
 }
 
-/* PARCOURS SCOLAIRE */
+/* - - - - - - - - - - PARCOURS SCOLAIRE - - - - - - - - - - */
 
 .parcoursScolaire {
     display: flex;
@@ -273,15 +226,9 @@ h4 {font-size: 17px; font-weight: 350;}
     padding: 15px 20px 15px 20px;
     border-radius: 10px;
     margin: 50px 0px;
-    /* transition: 1s; */
 }
 
-/* .etapeParcours:hover {
-    transform: rotateY(180deg);
-    transition: 1s;
-} */
-
-/* MES COMPETENCES */
+/* - - - - - - - - - - MES COMPETENCES - - - - - - - - - - */
 
 .mesCompetences {
     min-height: 100vh;
@@ -317,10 +264,6 @@ h4 {font-size: 17px; font-weight: 350;}
     justify-content: center;
 }
 
-#flechemcc {
-    display: none;
-}
-
 @media screen and (height > 100vh) {
     #flechemc {
         display: none;
@@ -332,7 +275,7 @@ h4 {font-size: 17px; font-weight: 350;}
     }
 }
 
-/* PROJET PERSONNEL */
+/* - - - - - - - - - - PROJET PERSONNEL - - - - - - - - - - */
 
 .projetPersonnel {
     display: flex;
@@ -373,14 +316,11 @@ h4 {font-size: 17px; font-weight: 350;}
     border-radius: 10px;
 }
 
-@media screen and (height > 100vh) {
-    #flecheperso {
-        position: absolute;
-        transform: translateY(82vh);
-    }   
+#flechePerso {
+
 }
 
-/* PROJET PROFESSIONNEL */
+/* - - - - - - - - - - PROJET PROFESSIONNEL - - - - - - - - - - */
 
 .projetProfessionnel {
     min-height: 100vh;
@@ -421,14 +361,11 @@ h4 {font-size: 17px; font-weight: 350;}
     border-radius: 10px;
 }
 
-@media screen and (height > 100vh) {
-    #flechepro {
-        position: absolute;
-        transform: translateY(82vh);
-    }   
+#flechePro {
+
 }
 
-/* CONTACTS */
+/* - - - - - - - - - - CONTACTS - - - - - - - - - - */
 
 .titreContacts {
     padding-left: 80px;
@@ -442,7 +379,6 @@ h4 {font-size: 17px; font-weight: 350;}
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 
 .blocContacts {
@@ -456,20 +392,9 @@ h4 {font-size: 17px; font-weight: 350;}
 #flechec {
     position: fixed;
     z-index: 4;
-
     right: 30px;
     bottom: 30px;
-
     transform: rotate(180deg);
-
-    /* height: 150px; */
-    /* width: 150px; */
-
-    /* right: 20px; */
-    /* bottom: -60px; */
-
-    /* transform: translateX(92vw) translateY(-5vh) rotate(180deg); */
-
     opacity: 0.5;
 }
 
