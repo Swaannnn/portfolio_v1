@@ -110,13 +110,124 @@ h4 {font-size: 17px; font-weight: 350;}
     justify-content: center;
 }
 
+.appdmCadre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100vh 1px;
+}
+
+#appdmTitre {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
 .aProposDeMoiTexte {
     padding: 50px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
+
+.appdmImg {
+    width: 300px;
+    height: auto;
+}
+
+#iut {
+    position: absolute;
+    transform: translateX(70%) translateY(15vh) rotate(-8deg);
+    transition: 0.3s;
+
+    margin: 0;
+    padding: 0;
+    border: 15px solid #fff;
+    border-bottom: 40px solid #fff;
+    /* border-top: 15px solid #fff; */
+    box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
+    border-radius: 5px;
+}
+
+#iut:hover {
+    z-index: 1;
+    transform: translateX(70%) translateY(15vh);
+    transition: 0.2s;
+
+    width: 360px;
+    height: auto;
+}
+
+#dev {
+    position: absolute;
+    transform: translateX(20%) translateY(30vh);
+    transition: 0.3s;
+
+    margin: 0;
+    padding: 0;
+    border: 15px solid #fff;
+    border-bottom: 40px solid #fff;
+    /* border-top: 15px solid #fff; */
+    box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
+    border-radius: 5px;
+}
+
+#dev:hover {
+    z-index: 1;
+    transform: translateX(20%) translateY(30vh);
+    transition: 0.2s;
+
+    width: 360px;
+    height: auto;
+}
+
+#batterie {
+    position: absolute;
+    transform: translateX(80%) translateY(50vh) rotate(5deg);
+    transition: 0.3s;
+
+    margin: 0;
+    padding: 0;
+    border: 15px solid #fff;
+    border-bottom: 40px solid #fff;
+    /* border-top: 15px solid #fff; */
+    box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
+    border-radius: 5px;
+}
+
+#batterie:hover {
+    z-index: 1;
+    transform: translateX(80%) translateY(50vh);
+    transition: 0.2s;
+
+    width: 360px;
+    height: auto;
+}
+
+#ahouaiiss {
+    position: absolute;
+    transform: translateX(20%) translateY(150%) rotate(-8deg);
+    transition: 0.3s;
+
+    margin: 0;
+    padding: 0;
+    border: 15px solid #fff;
+    border-bottom: 40px solid #fff;
+    /* border-top: 15px solid #fff; */
+    box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
+    border-radius: 5px;
+}
+
+#ahouaiiss:hover {
+    z-index: 1;
+    transform: translateX(20%) translateY(150%) rotate(-5deg);
+    transition: 0.2s;
+}
+
 
 #flecheapdm { /* à changer plus tard */
     position: absolute;
-    transform: translateY(80vh);
+    transform: translateY(85vh);
 }
 
 /* PARCOURS SCOLAIRE */
@@ -162,14 +273,13 @@ h4 {font-size: 17px; font-weight: 350;}
     padding: 15px 20px 15px 20px;
     border-radius: 10px;
     margin: 50px 0px;
+    /* transition: 1s; */
 }
 
-@media screen and (height > 100vh) {
-    #flecheps {
-        position: absolute;
-        transform: translateY(82vh);
-    }   
-}
+/* .etapeParcours:hover {
+    transform: rotateY(180deg);
+    transition: 1s;
+} */
 
 /* MES COMPETENCES */
 
@@ -344,6 +454,26 @@ h4 {font-size: 17px; font-weight: 350;}
 }
 
 #flechec {
-    position: absolute;
-    transform: translateX(85vw) translateY(-5vh) rotate(180deg);
+    position: fixed;
+    z-index: 4;
+
+    right: 30px;
+    bottom: 30px;
+
+    transform: rotate(180deg);
+
+    /* height: 150px; */
+    /* width: 150px; */
+
+    /* right: 20px; */
+    /* bottom: -60px; */
+
+    /* transform: translateX(92vw) translateY(-5vh) rotate(180deg); */
+
+    opacity: 0.5;
+}
+
+#flechec:hover {
+    opacity: 1;
+    transition: 1s;
 }
