@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./portfolio.css">
     <link rel="icon" href="./tout/logo/html.png">
+    <meta name="robots" content="index">
+    <meta name="keywords" content="Swann Gillé, Swann Gille, Gille Swann, Gillé Swann, portfolio Swann Gillé, portfolio Gillé Swann, Swann Gillé portfolio, Gillé Swann portfolio, portfolio developpeur web, portfolio informatique étudiant">
     <meta name="description" content="Portfolio de Swann Gillé, étudiant en informatique.">
     <title>Portfolio - Swann Gillé</title>
 </head>
@@ -32,13 +34,12 @@
                     <img src="./tout/images/iut.jpg" alt="iut" class="appdmImg" id="iut">
                     <img src="./tout/images/dev.jpg" alt="info" class="appdmImg" id="dev">
                     <img src="./tout/images/batterie.jpg" alt="batterie" class="appdmImg" id="batterie">
-                    <!-- <img src="./tout/images/test.jpg" alt="ah ouaiiss" class="appdmImg" id="ahouaiiss"> -->
                 </div>
                 <div class="aProposDeMoiTexte">
                     <h2 id="appdmTitre">À propos de moi</h2>
-                    <h4>Je suis Swann Gillé, j'ai 18 ans et je suis actuellement étudiant à l'iut de Nantes en première année de BUT informatique.</h4><br><br><br>
-                    <h4>J'adore l'informatique, notamment la programmation avec le développement web.</h4><br><br><br>
-                    <h4>Je fais aussi de la musique, de la batterie principalement, depuis que je suis tout petit.</h4>
+                    <h4 class="appdmTexte">Je suis Swann Gillé, j'ai 18 ans et je suis actuellement étudiant à l'iut de Nantes en première année de BUT informatique.</h4><br>
+                    <h4 class="appdmTexte">J'adore l'informatique, notamment la programmation avec le développement web.</h4><br>
+                    <h4 class="appdmTexte">Je fais aussi de la musique, de la batterie principalement, depuis que je suis tout petit.</h4>
                 </div>
             </div>
             <a id="flecheapdm" href="#forParcoursScolaire">
@@ -61,12 +62,6 @@
                         <h3>OBTENTION D'UN BACCALAUREAT GÉNÉRAL</h3><br>
                         <h4>En juillet 2022, à l'issue de mes 3 ans de cours au lycée Beaumont de Redon, j'ai obtenu mon Baccalauréat Général mention bien, spécialités Mathématiques et Sciences de l'Ingénieur.</h4>
                         <h4>Durant ces 3 années, j'ai aussi fait partie de l'option Cinéma-Audiovisuel, grâce à laquelle j'ai appris à utiliser différents outils techniques, comme des logiciels de montages.</h4>
-                    </li>
-                    <li class="etapeParcours">
-                        <h3>OBTENTION DU BREVET DES COLLÈGES</h3><br>
-                        <h4>J'ai obtenu mon brevet des collèges mention Très Bien au collège Beaumont de Redon en juin 2018.</h4>
-                        <h4>Durant ces 4 années de collège, j'ai suivi l'option CHAM (Classe à Horaires Aménagés Musique), grâce à laquelle j'ai pu commencer un deuxième instrument de musique, et ainsi diversifier ma pratique musicale.</h4>
-                    </li>
                 </ul>
                 <a href="#forMesCompetences" id="flecheps">
                     <img class="fleche" src="./tout/logo/dbfleche.svg" alt="fleche">
@@ -116,15 +111,15 @@
                         <h4>GitHub</h4>
                     </div>
                 </div>
-                <a id="flechemc" href="#forProjetPersonnel">
-                    <img class="fleche" src="./tout/logo/dbfleche.svg" alt="fleche">
-                </a>
             </div>
+            <a id="flechemc" href="#forProjetProfessionnel">
+                <img class="fleche" src="./tout/logo/dbfleche.svg" alt="fleche">
+            </a>
         </div>
 
         <!-- - - - - - PAGE 5 : PROJET PERSONNEL - - - - - -->
 
-        <div class="projetPersonnel" id="forProjetPersonnel">
+        <!-- <div class="projetPersonnel" id="forProjetPersonnel">
             <div class="projetPersonnelTexte">
                 <h1>Mon projet personnel</h1><br>
                 <div class="projetPerso">
@@ -147,7 +142,7 @@
                     <img class="fleche" src="./tout/logo/dbfleche.svg" alt="fleche">
                 </a>
             </div>
-        </div>
+        </div> -->
 
         <!-- - - - - - PAGE 6 : PROJET PROFESSIONNEL - - - - - -->
 
@@ -157,20 +152,21 @@
         
                 <div class="projetPro">
                     <h2>L'informatique</h2><br>
-                    <h4>Depuis que je m'intéresse à l'informatique, je sais que je veux en faire mon métier. C'est pourquoi j'ai commencé un cursus centré sur ce domaine cette année. Après la validation de mon Bachelor, je souhaiterai continuer mes études, soit en master, soit dans une école d'ingénieur, en fonction de l'évolution de mon projet.</h4><br>
+                    <h4>Depuis que je m'intéresse à l'informatique, je sais que je veux en faire mon métier. C'est pourquoi j'ai commencé un cursus centré sur ce domaine cette année.</h4>
+                    <h4>Après la validation de mon Bachelor, je souhaiterai continuer mes études, soit en master, soit dans une école d'ingénieur, en fonction de l'évolution de mon projet.</h4><br>
                     <h4>J'ai l'ambition de devenir indépendant, donc être freelance en informatique.</h4>
                 </div>
     
                 <div class="projetPro">
                     <h2>Le développement web</h2><br>
                     <h4>J'ai découvert le développement web en début d'année, et la discipline m'a immédiatement fascinée ! L'association de la programmation et du graphisme me plaît. Actuellement, je maîtrise les langages HTML et CSS, et j'ai commencé à apprendre le JavaScript. Je voudrais ensuite en apprendre de nouveaux, offrant plus de libertés dans les possibilités (comme le PHP ou le Node.js).</h4><br>
-                    <h4>À termes, mon objectif serait de devenir développeur full stack (front-end plus back-end).</h4>
+                    <h4>À termes, mon objectif serait de devenir développeur full stack (front-end et back-end).</h4>
                 </div>
     
-                <div class="projetPro">
+                <!-- <div class="projetPro">
                     <h2>L'anglais</h2><br>
                     <h4>J'ai aussi pour objectif de très bien maîtriser la langue anglaise. C'est une compétence essentielle pour travailler dans le milieu de l'informatique et des entreprises.</h4>
-                </div>
+                </div> -->
                 <a href="#forContacts" id="flechePro">
                     <img class="fleche" src="./tout/logo/dbfleche.svg" alt="fleche">
                 </a>
