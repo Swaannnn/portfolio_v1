@@ -70,9 +70,30 @@ h4 {font-size: 17px; font-weight: 350;}
     justify-content: center;
 }
 
+@keyframes mvtFleche {
+    0% {
+      transform: translatey(80vh);
+    }
+    60% {
+      transform: translatey(80vh);
+    }
+    70% {
+      transform: translatey(81vh);
+    }
+    80% {
+      transform: translatey(80vh);
+    }
+    90% {
+      transform: translatey(81vh);
+    }
+    100% {
+      transform: translatey(80vh);
+    }
+  }
+
 #flechea {
     position: absolute;
-    transform: translateY(80vh);
+    animation: mvtFleche 2.5s ease-in-out infinite;
 }
 
 /* - - - - - - - - - - A PROPOS DE MOI - - - - - - - - - - */
@@ -92,16 +113,18 @@ h4 {font-size: 17px; font-weight: 350;}
 
 #appdmTitre {
     text-align: center;
+    margin-top: 1em;
     margin-bottom: 3em;
+}
+
+.appdmTexte {
+    margin: 1em 0 ;
 }
 
 .aProposDeMoiTexte {
     padding: 50px 80px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    text-align: center;
 }
 
 .appdmImg {
@@ -150,7 +173,7 @@ h4 {font-size: 17px; font-weight: 350;}
     z-index: 1;
     transform: translateX(20%) translateY(30vh);
     transition: 0.2s;
-
+    
     width: 360px;
     height: auto;
 }
@@ -178,7 +201,7 @@ h4 {font-size: 17px; font-weight: 350;}
     height: auto;
 }
 
-#flecheapdm { /* à changer plus tard */
+#flecheapdm {
     position: absolute;
     transform: translateY(85vh);
 }
@@ -228,6 +251,11 @@ h4 {font-size: 17px; font-weight: 350;}
     margin: 50px 0px;
 }
 
+#flecheps {
+    position: absolute;
+    transform: translateY(80vh);
+}
+
 /* - - - - - - - - - - MES COMPETENCES - - - - - - - - - - */
 
 .mesCompetences {
@@ -260,24 +288,13 @@ h4 {font-size: 17px; font-weight: 350;}
 }
 
 #flechemc {
-    display: flex;
-    justify-content: center;
-}
-
-@media screen and (height > 100vh) {
-    #flechemc {
-        display: none;
-    }
-    #flechemcc {
-        display: block;
-        position: absolute;
-        transform: translateY(88vh);
-    }
+    position: absolute;
+    transform: translateY(85vh);
 }
 
 /* - - - - - - - - - - PROJET PERSONNEL - - - - - - - - - - */
 
-.projetPersonnel {
+/* .projetPersonnel {
     display: flex;
     justify-content: center;
     background-image: url(./tout/images/fondProjetPerso.jpg);
@@ -317,8 +334,9 @@ h4 {font-size: 17px; font-weight: 350;}
 }
 
 #flechePerso {
-
-}
+    position: absolute;
+    transform: translateY(85vh);
+} */
 
 /* - - - - - - - - - - PROJET PROFESSIONNEL - - - - - - - - - - */
 
@@ -362,7 +380,8 @@ h4 {font-size: 17px; font-weight: 350;}
 }
 
 #flechePro {
-
+    position: absolute;
+    transform: translateY(80vh);
 }
 
 /* - - - - - - - - - - CONTACTS - - - - - - - - - - */
