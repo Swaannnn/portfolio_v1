@@ -102,13 +102,16 @@ h4 {font-size: 17px; font-weight: 350;}
     min-height: 100vh;
     background: #FFFAFA;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    /* max-height: 100vh; */
 }
 
 .appdmCadre {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100vh 1px;
+    grid-template-rows: 85vh 1px;
 }
 
 #appdmTitre {
@@ -122,9 +125,10 @@ h4 {font-size: 17px; font-weight: 350;}
 }
 
 .aProposDeMoiTexte {
-    padding: 50px 80px;
+    /* padding: 50px 80px; */
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .appdmImg {
@@ -202,8 +206,7 @@ h4 {font-size: 17px; font-weight: 350;}
 }
 
 #flecheapdm {
-    position: absolute;
-    transform: translateY(85vh);
+    display: flex;
 }
 
 /* - - - - - - - - - - PARCOURS SCOLAIRE - - - - - - - - - - */
@@ -252,8 +255,7 @@ h4 {font-size: 17px; font-weight: 350;}
 }
 
 #flecheps {
-    position: absolute;
-    transform: translateY(80vh);
+    display: flex;
 }
 
 /* - - - - - - - - - - MES COMPETENCES - - - - - - - - - - */
@@ -267,6 +269,12 @@ h4 {font-size: 17px; font-weight: 350;}
 .mesCo {
     padding-bottom: 5vh;
     padding-left: 80px;
+}
+
+.competencesFleche {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .mesCompetencesTexte {
@@ -288,55 +296,9 @@ h4 {font-size: 17px; font-weight: 350;}
 }
 
 #flechemc {
-    position: absolute;
-    transform: translateY(85vh);
-}
-
-/* - - - - - - - - - - PROJET PERSONNEL - - - - - - - - - - */
-
-/* .projetPersonnel {
     display: flex;
     justify-content: center;
-    background-image: url(./tout/images/fondProjetPerso.jpg);
-    opacity: 0.9999999;
-    background-attachment: fixed;
-    background-size: cover;
-    color: #ffffff;
-    position: relative;
-    min-height: 100vh;
 }
-
-.projetPersonnel::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: #1d192c;
-    opacity: 0.8;
-    z-index: -1;
-}
-
-.projetPersonnelTexte {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px 80px;
-}
-
-.projetPerso {
-    width: 80vw;
-    margin: 30px 0px;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-}
-
-#flechePerso {
-    position: absolute;
-    transform: translateY(85vh);
-} */
 
 /* - - - - - - - - - - PROJET PROFESSIONNEL - - - - - - - - - - */
 
@@ -380,8 +342,7 @@ h4 {font-size: 17px; font-weight: 350;}
 }
 
 #flechePro {
-    position: absolute;
-    transform: translateY(80vh);
+    display: flex;
 }
 
 /* - - - - - - - - - - CONTACTS - - - - - - - - - - */
@@ -420,4 +381,37 @@ h4 {font-size: 17px; font-weight: 350;}
 #flechec:hover {
     opacity: 1;
     transition: 1s;
+}
+
+
+@media screen and (max-width: 600px) {
+    * {
+        display: none;
+    }
+}
+
+@media screen and (min-height: 760px) {
+    #flechePro {
+        position: absolute;
+        transform: translateY(80vh);
+    }
+
+    #flecheapdm {
+        position: absolute;
+        transform: translateY(38vh);
+    }
+}
+
+@media screen and (min-height: 700px) {
+    #flechemc {
+        position: absolute;
+        transform: translateY(70vh);
+    }
+}
+
+@media screen and (min-height: 600px) {
+    #flecheps {
+        position: absolute;
+        transform: translateY(80vh);
+    }
 }
