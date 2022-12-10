@@ -384,7 +384,7 @@ h4 {font-size: 17px; font-weight: 350;}
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
     * {
         display: none;
     }
