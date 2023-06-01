@@ -309,7 +309,11 @@ h4 {
 /* - - - - - - - - - - MES EXPERIENCES - - - - - - - - - - */
 
 .mesExperiences {
-    min-height: 100vh;
+  min-height: 100vh;
+}
+
+.mesExperiencesTexte {
+  padding: 60px 80px;
 }
 
 /* - - - - - - - - - - MES COMPETENCES - - - - - - - - - - */
@@ -396,10 +400,10 @@ h4 {
 .real {
   display: flex;
 
-  border: solid 1px black;
+  /* border: solid 1px black; */
   margin: 20px;
 
-  height: 303px;
+  /* height: 100%; */
 }
 
 .textReal {
@@ -443,28 +447,23 @@ h4 {
 }
 
 #real5 {
-  background-image: url(./tout/images/realisations/projet_particule.gif);
+  background-image: url(./tout/images/realisations/);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 #real6 {
-  background-image: url(./tout/images/realisations/projet_particule.gif);
+  background-image: url(./tout/images/realisations/);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  height: 300px;
 }
 
 #real1:hover, #real2:hover, #real3:hover, #real4:hover, #real5:hover, #real6:hover {
   background: #ffffff00;
   /* transition: 0.5s; */
-}
-
-.imgReal {
-  height: 300px;
-  width: auto;
-  z-index: -1;
 }
 
 /* - - - - - - - - - - PROJET PROFESSIONNEL - - - - - - - - - - */
