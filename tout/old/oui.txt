@@ -1,0 +1,20 @@
+1 - parcours / expériences
+
+2 - compétences (techniques (informatique) et autre (musique...))
+
+3 - réalisations (projets -> projet parricules)
+
+4 - projet pro / perso (dev web / voyages)
+
+
+
+HEADER - OK | ajouter transition
+ACCUEIL - OK
+PAGE 2 (A PROPOS DE MOI) - OK ?
+PAGE 3 (MON PARCOURS SCOLAIRE) - OK
+PAGE 4 (MES EXPERIENCES) - OK
+PAGE 5 (MES COMPETENCES) - OK
+PAGE 4 (MES REALISATIONS) - OK ?
+PAGE 7 (MON PROJET PRO) - OK ?
+PAGE 8 (MON PROJET PERSO) - OK ?
+CONTACTS : OK
