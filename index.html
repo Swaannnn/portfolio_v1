@@ -2,8 +2,8 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./code/portfolio.css">
-    <link rel="icon" href="./tout/images/logos/codehtml.png">
+    <link rel="stylesheet" href="./portfolio.css">
+    <link rel="icon" href="../tout/images/logos/codehtml.png">
     <meta name="robots" content="index">
     <meta name="keywords" content="Swann Gillé, Swann Gille, Gille Swann, Gillé Swann, portfolio Swann Gillé, portfolio Gillé Swann, Swann Gillé portfolio, Gillé Swann portfolio, portfolio developpeur web, portfolio informatique étudiant">
     <meta name="description" content="Portfolio de Swann Gillé, étudiant en informatique.">
@@ -13,20 +13,20 @@
 <body>
     <main>
         <div class="forHeader">
-            <a><img src="./tout/images/logos/plus.svg" alt="openHeader" id="openHeader"></a>
+            <a><img src="../tout/images/logos/plus.svg" alt="openHeader" id="openHeader"></a>
             <header>
                 <div class="left">
                     <p>Portfolio - Swann Gillé</p>                    
                 </div>
                 <div class="right">
-                    <a href="#forAccueil">Accueil</a>
-                    <a href="#forAProposDeMoi">À propos de moi</a>
-                    <a href="#forParcoursScolaire">Parcours</a>
-                    <a href="#forMesCompetences">Compétences</a>
-                    <a href="#forMesRealisations">Réalisations</a>
-                    <a href="#forProjetProfessionnel">Projet Professionnel</a>
-                    <a href="#forProjetPersonnel">Projet Personnel</a>
-                    <a href="#forContacts">Contacts</a>
+                    <a class="div" href="#forAccueil">Accueil</a>
+                    <a class="div" href="#forAProposDeMoi">À propos de moi</a>
+                    <a class="div" href="#forParcoursScolaire">Parcours</a>
+                    <a class="div" href="#forMesCompetences">Compétences</a>
+                    <a class="div" href="#forMesRealisations">Réalisations</a>
+                    <a class="div" href="#forProjetProfessionnel">Projet Professionnel</a>
+                    <!-- <a href="#forProjetPersonnel">Projet Personnel</a> -->
+                    <a class="div" href="#forContacts">Contacts</a>
                 </div>
             </header>
         </div>
@@ -46,26 +46,45 @@
         <div class="aProposDeMoi" id="forAProposDeMoi">
             <h1 id="appdmTitre">À propos de moi</h1>
             <div class="appdmCadre">
+                <div class="photoSwann">
+                    <img src="../tout/images/moi/swann.jpg" alt="Swann" id="swann">
+                </div>
                 <div class="presentation">
-                    <img src="./tout/images/moi/swann.jpg" alt="Swann" id="swann">
-                    <h4 id="swannTexte">Swann Gillé</h4>
+                    <h4>Actuellement en BUT informatique à l'Iut de Nantes, je vous propose d'en apprendre davantage sur moi grâce à ce portfolio !</h4> <br><br>
+                    
+                    <h3><b>Mes passions</b></h3>
+
+                    <div class="passionBatterie">
+                        <h4><br>
+                        Je fais de la musique depuis tout petit. J'ai commencé avec la batterie, et j'ai ensuite fait d'autres percussions comme du marimba.
+                        J'ai eu l'occasion de faire de nombreux concerts avec plusieurs ensembles, comme une fanfare de rue, un ensemble de musiques du monde ou un groupe de rock que j'ai avec des amis.
+                        </h4>
+                        <div class="photo1">
+                            <img src="../tout/images/moi/batterie.jpg" alt="batterie" class="appdmImg" id="appdmImg1">
+                            <h4 id="batterieTexte">La musique</h4>
+                        </div>
+                    </div>
+
+                    <div class="passionSport">
+                        <div class="photo3">
+                            <img src="../tout/images/moi/skate.jpg" alt="skate" class="appdmImg" id="appdmImg3">
+                            <h4 id="skateTexte">Le sport</h4>
+                        </div>
+                        <h4><br><br>
+                        Je fais du skateboard depuis quelques années, et j'ai commencé l'année dernière le volley.
+                        </h4>
+                    </div>
                 </div>
-                <div class="photo1">
-                    <img src="./tout/images/moi/batterie.jpg" alt="batterie" class="appdmImg" id="appdmImg1">
-                    <h4 id="batterieTexte">bla bla je fais de la batterie</h4>
-                </div>
-                <div class="photo2">
-                    <img src="./tout/images/moi/minecraft.jpg" alt="minecraft" class="appdmImg" id="appdmImg2">
+                
+                
+                <!-- <div class="photo2">
+                    <img src="../tout/images/moi/minecraft.jpg" alt="minecraft" class="appdmImg" id="appdmImg2">
                     <h4 id="minecraftTexte">bla bla j'aime les jeux vidéos</h4>
                 </div>
-                <div class="photo3">
-                    <img src="./tout/images/moi/skate.jpg" alt="skate" class="appdmImg" id="appdmImg3">
-                    <h4 id="skateTexte">bla bla je fais du skate</h4>
-                </div>
                 <div class="photo4">
-                    <img src="./tout/images/moi/berserk.png" alt="batterie" class="appdmImg" id="appdmImg4">
+                    <img src="../tout/images/moi/berserk.png" alt="batterie" class="appdmImg" id="appdmImg4">
                     <h4 id="batterieTexte">bla bla j'aime lire des mangas</h4>
-                </div>
+                </div> -->
             </div>
         </div>
 
@@ -84,7 +103,7 @@
                     <li class="etapeParcours">
                         <p class="dateParcours" id="date2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2019 - 2022</p>
                         <h3>BACCALAURĖAT GÉNÉRAL</h3><br>
-                        <h4>Obtetion du Baccalauréat Général au lycée Beaumont de Redon, spécialités Mathématiques et Sciences de l'Ingénieur, et option Cinéma-Audiovisuel.</h4>
+                        <h4>Obtetion du Baccalauréat Général au lycée Beaumont de Redon, spécialités Mathématiques et Sciences de l'Ingénieur, avec l'option Cinéma-Audiovisuel.</h4>
                         <!-- <h4>Durant ces 3 années, j'ai aussi fait partie de l'option Cinéma-Audiovisuel, grâce à laquelle j'ai appris à utiliser différents outils techniques, comme des logiciels de montages.</h4> -->
                 </ul>
             </div>
@@ -96,9 +115,9 @@
 
                 <ul class="experiences">
                     <li class="experience">
-                        <img id="manpower" src="./tout/images/logos/manpower.png" width="150px"><br>
+                        <img id="manpower" src="../tout/images/logos/manpower.png" width="150px"><br>
                         <h3>INTÉRIMAIRE CHEZ MANPOWER</h3><br>
-                        <h4>En juillet 2023, j'ai été responsable de différentes tâches à Uniqlo Nantes : gestion du stock, mise en rayon, inventaire et manutention</h4>
+                        <h4>En juillet 2022, j'ai été responsable de différentes tâches à Uniqlo Nantes : gestion du stock, mise en rayon, inventaire et manutention</h4>
                     </li>
                 </ul>
             </div>
@@ -112,39 +131,39 @@
                 <div class="competencesFleche">
                     <div class="cadreCompetences">
                         <div class="blocCompetence">
-                            <img class="svg" src="./tout/images/logos/langues.svg" alt="langues"><br>
+                            <img class="svg" src="../tout/images/logos/langues.svg" alt="langues"><br>
                             <h3>Langues</h3>
-                            <h4>Français / Anglais / Espagnol</h4>
+                            <h4>Français - Anglais - Espagnol</h4>
                         </div>
     
                         <div class="blocCompetence">
-                            <img class="svg" src="./tout/images/logos/code.svg" alt="développement"><br>
+                            <img class="svg" src="../tout/images/logos/code.svg" alt="développement"><br>
                             <h3>Développement</h3>
-                            <h4>Python / Golang / Kotlin / HTML/CSS</h4>
+                            <h4>Python - Golang - Kotlin - HTML/CSS/JS</h4>
                         </div>
     
                         <div class="blocCompetence">
-                            <img class="svg" src="./tout/images/logos/systeme.svg" alt="systeme"><br>
+                            <img class="svg" src="../tout/images/logos/systeme.svg" alt="systeme"><br>
                             <h3>Systèmes d'exploitations</h3>
-                            <h4>Windows / Linux</h4>
+                            <h4>Windows - Linux</h4>
                         </div>
     
                         <div class="blocCompetence">
-                            <img class="svg" src="./tout/images/logos/logiciel.svg" alt="logiciel"><br>
+                            <img class="svg" src="../tout/images/logos/logiciel.svg" alt="logiciel"><br>
                             <h3>Logiciels</h3>
                             <h4>Adobe (Photoshop / Première Pro)</h4>
                         </div>
     
                         <div class="blocCompetence">
-                            <img class="svg" src="./tout/images/logos/database.svg" alt="base de données"><br>
+                            <img class="svg" src="../tout/images/logos/database.svg" alt="base de données"><br>
                             <h3>Base de données</h3>
                             <h4>SQL Developer (Oracle)</h4>
                         </div>
     
                         <div class="blocCompetence">
-                            <img class="svg" src="./tout/images/logos/github.svg" alt="github"><br>
+                            <img class="svg" src="../tout/images/logos/github.svg" alt="github"><br>
                             <h3>Outils collaboratifs</h3>
-                            <h4>GitHub / GitLab</h4>
+                            <h4>GitHub - GitLab</h4>
                         </div>
                     </div>
                 </div>
@@ -159,13 +178,13 @@
 
                 <div class="blocReal">
                     <a href="https://github.com/Swaannnn/projet-particule" target="_blank"><div class="real" id="real1">
-                        <p class="textReal">Projet de simulation de particules, dans le cadre du cours "Initiation au développement" lors de mon premier semestre de BUT informatique.<br><br><img class="imglang" src="./tout/images/logos/golang.png" alt="golang"><br><br>Cliquez pour en savoir plus !</p>
+                        <p class="textReal">Projet de simulation de particules, dans le cadre du cours "Initiation au développement" lors de mon premier semestre de BUT informatique.<br><br><img class="imglang" src="../tout/images/logos/golang.png" alt="golang"><br><br>Cliquez pour en savoir plus !</p>
                     </div></a>
                     <a href="https://github.com/Fisail/Site_Web_Moustache" target="_blank"><div class="real" id="real2">
-                        <p class="textReal">Site réalisé dans le cadre du cours de Communication Professionnelle lors de mon 2eme semestre de BUT informatique avec 3 autres étudiants.<br>Le sujet était libre et le but était simplement de respecter les règles du web.<br><br><img class="imglang" src="./tout/images/logos/html.png" alt="html"><img class="imglang" src="./tout/images/logos/css.png" alt="css"><img class="imglang" src="./tout/images/logos/javascript.png" alt="javascript"><br><br>Cliquez pour en savoir plus !</p>
+                        <p class="textReal">Site réalisé dans le cadre du cours de Communication Professionnelle lors de mon 2eme semestre de BUT informatique avec 3 autres étudiants.<br>Le sujet était libre et le but était simplement de respecter les règles du web.<br><br><img class="imglang" src="../tout/images/logos/html.png" alt="html"><img class="imglang" src="../tout/images/logos/css.png" alt="css"><img class="imglang" src="../tout/images/logos/javascript.png" alt="javascript"><br><br>Cliquez pour en savoir plus !</p>
                     </div></a>
                     <a href="https://github.com/Swaannnn/frontend-mentor" target="_blank"><div class="real" id="real3">
-                        <p class="textReal">Implémentations de pages en HTML et CSS<br><br><img class="imglang" src="./tout/images/logos/html.png" alt="html"><img class="imglang" src="./tout/images/logos/css.png" alt="css"><br><br>Cliquez pour en savoir plus !</p>
+                        <p class="textReal">Implémentations de pages en HTML et CSS<br><br><img class="imglang" src="../tout/images/logos/html.png" alt="html"><img class="imglang" src="../tout/images/logos/css.png" alt="css"><br><br>Cliquez pour en savoir plus !</p>
                     </div></a>
                     
                     <p class="infoReal">Projet Particules</p>
@@ -173,12 +192,12 @@
                     <p class="infoReal">Frontend Mentor</p>
 
                     <div class="real" id="real4">
-                        <p class="textReal">Développement du jeu Pico Mino, dans le cadre des cours "Développement Orienté Objet", "Développement d'application IHM", et "Qualité de développement", lors de ma première annér de BUT informatique<br><br><img class="imglang" src="./tout/images/logos/JavaFX.png" alt="javafx"><img class="imglang" src="./tout/images/logos/kotlin.png" alt="kotlin"></p>
+                        <p class="textReal">Développement du jeu Pickomino, dans le cadre des cours "Développement Orienté Objet", "Développement d'application IHM", et "Qualité de développement", lors de ma première année de BUT informatique<br><br><img class="imglang" src="../tout/images/logos/JavaFX.png" alt="javafx"><img class="imglang" src="../tout/images/logos/kotlin.png" alt="kotlin"></p>
                     </div>
                     <div class="realNON" id="real5NON"></div>
                     <div class="realNON" id="real6NON"></div>
 
-                    <p class="infoReal">Pico Mino</p>
+                    <p class="infoReal">Pickomino</p>
                     <p class="infoReal"></p>
                     <p class="infoReal"></p>
                 </div>
@@ -201,15 +220,16 @@
     
                 <div class="projetPro">
                     <h2>Le développement web</h2><br>
-                    <h4>J'ai découvert le développement web en début d'année, et la discipline m'a immédiatement fascinée ! L'association de la programmation et du graphisme me plaît. Actuellement, je maîtrise les langages HTML et CSS, et j'ai commencé à apprendre le JavaScript. Je voudrais ensuite en apprendre de nouveaux, offrant plus de libertés dans les possibilités (comme le PHP ou le Node.js).</h4><br>
-                    <h4>À termes, mon objectif serait de devenir développeur full stack (front-end et back-end).</h4>
+                    <h4>J'ai découvert le développement web en début d'année, et la discipline m'a immédiatement fascinée ! L'association de la programmation et du graphisme me plaît. Actuellement, je maîtrise les langages HTML et CSS, et j'ai commencé à apprendre le JavaScript.</h4><br>
+                    <h4>Mon objectif serait de devenir developpeur front-end, mais le back-end m'intéresse aussi.</h4>
+                    <!-- <h4>À termes, mon objectif serait de devenir développeur full stack (front-end et back-end).</h4> -->
                 </div>
             </div>
         </div>
 
         <!-- - - - - - PARTIE 8 : PROJET PERSONNEL - - - - - -->
 
-        <div class="projetPersonnel" id="forProjetPersonnel">
+        <!-- <div class="projetPersonnel" id="forProjetPersonnel">
             <div class="projetPersonnelTexte">
                 <h1>Mon projet personnel</h1><br>
         
@@ -218,12 +238,12 @@
                     <h4>J'ai déjà eu la chance de voyager dans plusieurs pays et c'est une expérience juste incroyable. Découvrir de nouveaux paysages, de nouvelles cultures, ou encore rencontrer des gens me plaît énormément. C'est pour ça que je prévois de voyager le plus possible, et le plus tôt possible pour pouvoir décourvir un maximum de pays dans ma vie.</h4>
                 </div>
     
-                <!-- <div class="projetPerso">
+                <div class="projetPerso">
                     <h2>Être riche</h2><br>
                     <h4>J'aimerais gagner ma vie assez pour me faire plaisir. Notamment pour voyager, mais aussi pour pouvoir profiter avec ma famille et mes amis. Cependant, l'argent n'est pas ma motivation principale </h4>
-                </div> -->
+                </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- - - - - - PARTIE 9 : CONTACTS - - - - - -->
 
@@ -231,7 +251,7 @@
             <h2 class="titreContacts">Contacts</h2>
             <div class="cadreContacts">
                 <div class="blocContacts">
-                    <img class="svg" src="./tout/images/logos/mail.svg" alt="mail"><br>
+                    <img class="svg" src="../tout/images/logos/mail.svg" alt="mail"><br>
                     <h3>Mail</h3>
                     <h4>swanngille@gmail.com</h4>
                 </div>
@@ -243,27 +263,27 @@
                 </div> -->
     
                 <div class="blocContacts">
-                    <img class="svg" src="./tout/images/logos/telephone.svg" alt="téléphone"><br>
+                    <img class="svg" src="../tout/images/logos/telephone.svg" alt="téléphone"><br>
                     <h3>Téléphone</h3>
                     <h4>06.18.81.80.97</h4>
                 </div>
     
                 <a href="https://github.com/swaannnn" target="_blank">
                 <div class="blocContacts">
-                    <img class="svg" src="./tout/images/logos/github.svg" alt="github"><br>
+                    <img class="svg" src="../tout/images/logos/github.svg" alt="github"><br>
                     <h3>GitHub</h3>
                     <h4>Swaannnn</h4>
                 </div></a>
 
-                <a href="./tout/cv.pdf" target="_blank">
+                <a href="../tout/cv.pdf" target="_blank">
                     <div class="blocContacts">
-                        <img class="svg" src="./tout/images/logos/cv.png" alt="CV"><br>
+                        <img class="svg" src="../tout/images/logos/cv.png" alt="CV"><br>
                         <h3>CV</h3>
                         <h4>Télécharger mon CV</h4>
                     </div></a>
             </div>
         </div>
     </main>
-    <script src="./code/script.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
