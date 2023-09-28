@@ -162,19 +162,19 @@ header a {
 }
 
 .photoSwann {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transform: translateY(-20vh);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-20vh);
 }
 
 #swann {
-    height: 200px;
-    width: auto;
-    border-radius: 50%;
+  height: 200px;
+  width: auto;
+  border-radius: 50%;
 
-    border: solid 3px black;
+  border: solid 3px black;
 }
 
 .passionBatterie {
@@ -188,14 +188,14 @@ header a {
 }
 
 .photos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .photo1 {
-    margin-left: 20px;
-    transform: translateY(-7vh);
+  margin-left: 20px;
+  transform: translateY(-7vh);
 }
 
 /* .photo2 {
@@ -227,26 +227,26 @@ header a {
 } */
 
 .appdmImg {
-    width: 300px;
-    height: auto;
-    
-    margin: 0;
-    padding: 0;
-    border: 15px solid #fff;
-    border-bottom: 40px solid #fff;
-    box-shadow: 1em 1em 2em 0.25em rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
+  width: 300px;
+  height: auto;
+
+  margin: 0;
+  padding: 0;
+  border: 15px solid #fff;
+  border-bottom: 40px solid #fff;
+  box-shadow: 1em 1em 2em 0.25em rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
 
 #appdmImg1 {
-    rotate: -2deg;
+  rotate: -2deg;
 }
 
 #batterieTexte {
-    rotate: -2deg;
-    transform: translateY(-30px);
-    display: flex;
-    justify-content: center;
+  rotate: -2deg;
+  transform: translateY(-30px);
+  display: flex;
+  justify-content: center;
 }
 
 /* #appdmImg2 {
@@ -260,14 +260,14 @@ header a {
 */
 
 #appdmImg3 {
-    rotate: 3deg;
+  rotate: 3deg;
 }
 
 #skateTexte {
-    rotate: 3deg;
-    transform: translateY(-30px);
-    display: flex;
-    justify-content: center;
+  rotate: 3deg;
+  transform: translateY(-30px);
+  display: flex;
+  justify-content: center;
 }
 
 /*#appdmImg4 {
@@ -342,11 +342,8 @@ header a {
 }
 
 .experiences {
-  max-width: 600px;
+  max-width: 630px;
   text-align: center;
-  border-radius: 10px;
-  padding: 15px 20px;
-  background: rgba(255, 255, 255, 0.2);
   margin: 50px 0px;
 }
 
@@ -354,6 +351,14 @@ header a {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  padding: 15px 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.experience:nth-child(1) {
+  margin-bottom: 50px;
 }
 
 /* - - - - - - - - - - MES COMPETENCES - - - - - - - - - - */
@@ -460,7 +465,12 @@ header a {
   background-image: url(../tout/images/realisations/);
 } */
 
-#real1, #real2, #real3, #real4, #real5, #real6 {
+#real1,
+#real2,
+#real3,
+#real4,
+#real5,
+#real6 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -468,7 +478,12 @@ header a {
   border: solid 1px black;
 }
 
-#real1:hover, #real2:hover, #real3:hover, #real4:hover, #real5:hover, #real6:hover {
+#real1:hover,
+#real2:hover,
+#real3:hover,
+#real4:hover,
+#real5:hover,
+#real6:hover {
   background: #ffffff00;
 }
 
@@ -516,43 +531,43 @@ header a {
 /* - - - - - - - - - - PROJET PERSONNEL - - - - - - - - - - */
 
 .projetPersonnel {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    background-image: url(../tout/images/fonds/fondProjetPerso.jpg);
-    opacity: 0.8;
-    background-attachment: fixed;
-    background-size: cover;
-    color: #ffffff;
-    position: relative;
-  }
-  
-  .projetPersonnel::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: #1d192c;
-    opacity: 0.8;
-    z-index: -1;
-  }
-  
-  .projetPersonnelTexte {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 50px 0px;
-  }
-  
-  .projetPerso {
-    width: 80vw;
-    margin: 30px 80px;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-  }
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-image: url(../tout/images/fonds/fondProjetPerso.jpg);
+  opacity: 0.8;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #ffffff;
+  position: relative;
+}
+
+.projetPersonnel::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #1d192c;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.projetPersonnelTexte {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0px;
+}
+
+.projetPerso {
+  width: 80vw;
+  margin: 30px 80px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
 
 /* - - - - - - - - - - CONTACTS - - - - - - - - - - */
 
