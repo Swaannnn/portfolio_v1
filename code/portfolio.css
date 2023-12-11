@@ -402,6 +402,10 @@ header a {
   /* transition: 0.2s; */
 }
 
+.blocCompetence h4 {
+  text-align: center;
+}
+
 /* .blocCompetence:hover {
   color: black;
   transition: 0.2s;
@@ -461,10 +465,10 @@ header a {
   background-image: url(../tout/images/realisations/spotify_stats.png);
 }
 
-/* #real6 {
-  background-image: url(../tout/images/realisations/);
+#real6 {
+  background-image: url(../tout/images/realisations/botanicia.png);
 }
-*/
+
 
 #real1,
 #real2,
