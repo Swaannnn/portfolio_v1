@@ -444,38 +444,32 @@ header a {
 }
 
 #real1 {
-  background-image: url(../tout/images/realisations/projet_particule.gif);
-  /* background-color: #000000; */
+  background-image: url(../tout/images/realisations/spotifeur.png);
 }
 
 #real2 {
-  background-image: url(../tout/images/realisations/site_lamoustache.png);
+  background-image: url(../tout/images/realisations/botanicia.png);
 }
 
 #real3 {
-  background-image: url(../tout/images/realisations/frontendmentor_challenge.gif);
+  background-image: url(../tout/images/realisations/projet_particule.gif);
 }
 
 #real4 {
   background-image: url(../tout/images/realisations/pickomino.png);
-  background-color: #fff;
 }
 
 #real5 {
-  background-image: url(../tout/images/realisations/spotify_stats.png);
+  background-image: url(../tout/images/realisations/puissance4.jpg);
 }
 
 #real6 {
-  background-image: url(../tout/images/realisations/botanicia.png);
+  background-image: url(../tout/images/realisations/site_lamoustache.png);
 }
 
-
-#real1,
-#real2,
-#real3,
-#real4,
-#real5,
-#real6 {
+#real1, #real2, #real3,
+#real4, #real5, #real6,
+#real7 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -483,12 +477,9 @@ header a {
   border: solid 1px black;
 }
 
-#real1:hover,
-#real2:hover,
-#real3:hover,
-#real4:hover,
-#real5:hover,
-#real6:hover {
+#real1:hover, #real2:hover, #real3:hover,
+#real4:hover, #real5:hover, #real6:hover,
+#real7:hover, #real8:hover, #real9:hover {
   background: #ffffff00;
 }
 
